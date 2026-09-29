@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+    <meta name="description" content="VERONA — Contemporary fashion from Colombo, Sri Lanka.">
+
+    <title>VERONA — Colombo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise"></div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <a href="#top" class="brand" aria-label="VERONA home">
+            <span class="brand-symbol">V</span>
+            <span class="brand-text">
+                <small>COLOMBO</small>
+                <strong>VERONA</strong>
+            </span>
+        </a>
+
+        <nav class="desktop-links">
+            <a href="#collection">Collection</a>
+            <a href="#story">The House</a>
+            <a href="#journal">Journal</a>
+            <a href="#atelier">Atelier</a>
+        </nav>
+
+        <a href="#collection" class="nav-cta">Shop collection</a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#collection">Collection</a>
+            <a href="#story">The House</a>
+            <a href="#journal">Journal</a>
+            <a href="#atelier">Atelier</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-video">
+                <!--
+                    Put your fashion video here:
+                    /assets/verona-hero.mp4
+
+                    The video is muted, autoplaying, looping forever and plays inline.
+                -->
+                <video
+                    id="heroVideo"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="auto"
+                    poster="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2000&q=85"
+                >
+                    <source src="assets/verona-hero.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="hero-overlay"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow reveal reveal-one">
+                    <span></span>
+                    CONTEMPORARY CLOTHING / COLOMBO
+                    <span></span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="line reveal reveal-two">DRESS THE</span>
+                    <span class="line serif reveal reveal-three">QUIET <i>MOMENT</i></span>
+                </h1>
+
+                <p class="hero-description reveal reveal-four">
+                    Clothing made for movement, presence and the hours between.
+                </p>
+
+                <div class="hero-actions reveal reveal-five">
+                    <a href="#collection" class="primary-button">
+                        <span>Explore collection</span>
+                        <b>↗</b>
+                    </a>
+                    <a href="#story" class="text-button">Discover VERONA</a>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 / 04</span>
+                <span>SCROLL TO DISCOVER</span>
+                <span>COLOMBO / SRI LANKA</span>
+            </div>
+
+            <div class="scroll-line"></div>
+        </section>
+
+
+        <!-- COLLECTION INTRO -->
+        <section class="collection-intro" id="collection">
+            <div class="section-label">
+                <span>COLLECTION 01</span>
+                <span>2026</span>
+            </div>
+
+            <div class="collection-heading">
+                <h2>Form follows<br><em>feeling.</em></h2>
+                <p>
+                    A collection shaped by Colombo's heat, late evenings,
+                    concrete architecture and the quiet confidence of getting dressed for yourself.
+                </p>
+            </div>
+
+            <!-- Rotating 3D object -->
+            <div class="orbit-scene">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="orbit-core">
+                    <span>V</span>
+                    <small>VERONA</small>
+                </div>
+
+                <div class="orbit-card card-a">
+                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=85" alt="VERONA evening dress">
+                </div>
+
+                <div class="orbit-card card-b">
+                    <img src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=700&q=85" alt="VERONA shirt">
+                </div>
+
+                <div class="orbit-card card-c">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=85" alt="VERONA editorial look">
+                </div>
+
+                <div class="orbit-card card-d">
+                    <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=85" alt="VERONA fashion detail">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PRODUCT GRID -->
+        <section class="products-section">
+            <div class="products-header">
+                <div>
+                    <span class="mini-label">SELECTED PIECES</span>
+                    <h2>New season.</h2>
+                </div>
+                <a href="#contact">View all pieces ↗</a>
+            </div>
+
+            <div class="products-grid">
+                <article class="product product-large">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1200&q=90" alt="After Dark Dress">
+                        <span class="product-number">01</span>
+                        <button type="button">+</button>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <small>DRESS</small>
+                            <h3>After Dark Dress</h3>
+                        </div>
+                        <strong>LKR 26,500</strong>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=1000&q=90" alt="The Verona Shirt">
+                        <span class="product-number">02</span>
+                        <button type="button">+</button>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <small>SHIRT</small>
+                            <h3>The Verona Shirt</h3>
+                        </div>
+                        <strong>LKR 18,500</strong>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1506629905607-d9b1b5f0e9d8?auto=format&fit=crop&w=1000&q=90" alt="Linea Trousers">
+                        <span class="product-number">03</span>
+                        <button type="button">+</button>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <small>TROUSERS</small>
+                            <h3>Linea Trousers</h3>
+                        </div>
+                        <strong>LKR 22,900</strong>
+                    </div>
+                </article>
+
+                <article class="product product-wide">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=1200&q=90" alt="Studio Jacket">
+                        <span class="product-number">04</span>
+                        <button type="button">+</button>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <small>JACKET</small>
+                            <h3>Studio Jacket</h3>
+                        </div>
+                        <strong>LKR 29,800</strong>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- STORY -->
+        <section class="story" id="story">
+            <div class="story-top">
+                <span class="mini-label">THE HOUSE / 01</span>
+                <div class="story-title">
+                    <h2>Born from<br><em>Colombo.</em></h2>
+                    <p>
+                        VERONA is a contemporary clothing house shaped by the pace,
+                        light and contradictions of the city. We make fewer pieces,
+                        with more intention — silhouettes that feel relevant today
+                        and remain personal tomorrow.
+                    </p>
+                </div>
+            </div>
+
+            <div class="story-marquee">
+                <div class="marquee-track">
+                    <span>COLOMBO</span>
+                    <i>✦</i>
+                    <span>VERONA</span>
+                    <i>✦</i>
+                    <span>CONSIDERED</span>
+                    <i>✦</i>
+                    <span>COLOMBO</span>
+                    <i>✦</i>
+                    <span>VERONA</span>
+                    <i>✦</i>
+                    <span>CONSIDERED</span>
+                    <i>✦</i>
+                </div>
+            </div>
+
+            <div class="story-images" id="journal">
+                <article class="story-image story-image-one">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1200&q=90" alt="VERONA city editorial">
+                    <div><small>01 — CITY</small><h3>The streets after five.</h3></div>
+                </article>
+
+                <article class="story-image story-image-two">
+                    <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1200&q=90" alt="VERONA material editorial">
+                    <div><small>02 — MATERIAL</small><h3>Texture is a language.</h3></div>
+                </article>
+
+                <article class="story-image story-image-three">
+                    <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1200&q=90" alt="VERONA form editorial">
+                    <div><small>03 — FORM</small><h3>When restraint becomes character.</h3></div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- ATELIER -->
+        <section class="atelier" id="atelier">
+            <div class="atelier-video">
+                <video autoplay muted loop playsinline preload="auto" poster="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1800&q=85">
+                    <source src="assets/verona-atelier.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="atelier-overlay"></div>
+
+            <div class="atelier-content">
+                <span class="mini-label">VERONA / ATELIER</span>
+                <h2>Made in the<br><em>rhythm of now.</em></h2>
+                <p>
+                    Limited drops, refined essentials and campaign pieces created
+                    in Colombo for people who prefer presence over noise.
+                </p>
+                <a href="#contact" class="outline-button">Enter the atelier ↗</a>
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer id="contact">
+            <div class="footer-top">
+                <span>VERONA</span>
+                <span>COLOMBO / SRI LANKA</span>
+            </div>
+
+            <div class="footer-center">
+                <span class="mini-label">STAY CLOSE</span>
+                <h2>Wear the<br><em>moment.</em></h2>
+
+                <form id="newsletter">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">JOIN ↗</button>
+                </form>
+            </div>
+
+            <div class="footer-bottom">
+                <a href="#">Instagram</a>
+                <a href="mailto:hello@verona.lk">hello@verona.lk</a>
+                <span>© 2026 VERONA</span>
+            </div>
+        </footer>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
